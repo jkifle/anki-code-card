@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "properties": {
+        "theme": {
+            "title": "Color Theme",
+            "description": "Pygments style name (e.g. monokai, dracula, nord, github-dark, vs)",
+            "type": "string",
+            "default": "monokai"
+        },
+        "font_size": {
+            "title": "Font Size",
+            "description": "CSS font-size for the code block (e.g. 0.88em, 14px)",
+            "type": "string",
+            "default": "0.88em"
+        },
+        "line_height": {
+            "title": "Line Height",
+            "description": "CSS line-height for the code block. 1.5–1.8 recommended.",
+            "type": "string",
+            "default": "1.6"
+        },
+        "tab_size": {
+            "title": "Tab Size",
+            "description": "Number of spaces a tab character is expanded to.",
+            "type": "number",
+            "default": 4
+        }
+    }
+}
